@@ -7,7 +7,7 @@ def line(array)
     customer_line = "The line is currently:"
     array.each do |customer|
       binding.pry
-    customer_line += " #{customer.index}. #{customer}"
+    customer_line += " #{array.index(customer)}. #{customer}"
   end
   puts customer_line
 end
