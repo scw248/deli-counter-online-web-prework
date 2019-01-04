@@ -1,11 +1,12 @@
 # Write your code here.
-
+require "pry"
 def line(array)
   if array.length == 0
     puts "The line is currently empty."
   else
     customer_line = "The line is currently:"
     array.each do |customer|
+      binding.pry
     customer_line += " #{customer.index}. #{customer}"
   end
   puts customer_line
