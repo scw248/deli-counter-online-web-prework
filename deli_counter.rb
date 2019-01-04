@@ -14,7 +14,7 @@ end
 
 def take_a_number(array, customer)
   if array.length == 0
-    puts "Welcome, #{customer} You are number 1 in line."
+    puts "Welcome, #{customer}. You are number 1 in line."
     array.push(customer)
   else
     puts "Welcome, #{customer}. You are number #{array.length} in line."
